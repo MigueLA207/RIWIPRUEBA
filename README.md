@@ -1,75 +1,78 @@
 # Sistema de invenatio
-Este proyecto es una aplicación que permite llevar el inventario a una tienda de manera efectiva, usando diccionarios, permite hacer las operaciones basicas como agregar, consultar, actualizar y eliminar productos. Ademas de un calculo constante del precio total del inventario.
+This project is an application that allows you to take inventory of a store effectively, using dictionaries, allows you to do basic operations like as adding, consulting, updating and delete products.
 
-## Caracteristicas
-  - Añadir productos al inventario
-  - Consultar productos en inventario
-  - Actualizar precios de productos:
-  - Eliminar productos del inventario
-  - Calcular el valor total del inventario
-  - Validaciones de entrada para cada dato
-  - Salidas limpias en consola
+## Characteristics
+  - Add products to inventory
+  - search products in stock
+  - Update product prices
+  - Delete inventory products
+  - Calculate the total inventory value
+  - Input validations for each data
 
 ## Instrucciones de uso
- 1. Al principio del programa tendra que ingresar 5 que se almacenaran en el inventario. El usuario puede escoger si desea ingresar mas productos
- 2. El sistema arrojara 7 opciones
- 3. El usuario escogera alguna de las opciones y entrara a ese apatado.
- 4. Segun la opcion habran diferentes entradas de datos que el usuario debera ingresar de manera correcta 
- 5. Preguntara al final de cada opcion, si se desea repetir el proceso o salir al menu principal
- 6. Despues de recorrer cada opcion, la unica opción de salir del programa es la 7.
+ 1. Install python (only if you don't)
+ 2. Download the file and decompress in a single folder 
+ 3. When running the program, you going to enter 5 products that will be stored in the inventory. The user can choose if they want to enter more products
+ 4. The system will throw 7 options
+ 5. The user will choose one of the options and enter to that opcion.
+ 6. According to the option there will be different inputs that the user must enter correctly 
+ 7. Ask at the end of each option, if you want to repeat the process or go out to the main menu
+ 8. After touring each option, the only option to leave the program is 7.
 
 ## Ejemplos de datos de entrada
-- caso 1:
-     Entrada: 
+- case 1:
+     input: 
         Ingrese por favor el nombre del producto: miel 
         Ingrese por favor el precio del producto: 1200
         Ingrese por favor la cantidad de productos que hay: 30
-     -Salida:
+     -output:
         "Producto ingresado con exito"
      
-- caso 2:
-       Entrada: 
+- case 2:
+       input: 
         Ingrese por favor el nombre del producto: miel
-     -Salida:
+     -output:
         Busqueda realizada con exito
         Nombre: miel -- Precio: 1200.0 -- Cantidad: 30 
 
-- caso 3:
-       Entrada:
+- case 3:
+       Input:
          Ingrese por favor el nombre del producto: miel
          Digita el nuevo precio para este producto: 2000
        - Salida:
          Precio editado con exito
        
-- caso 4:
-       Entrada:
+- case 4:
+       Input:
           Ingrese por favor el nombre del producto: miel
-       - Salida:
+       - output:
           Producto eliminado con exito
 
 - caso 5:
-       Entrada:
+       Input:
           None
-       - Salida:
+       - output:
           -Valor total del inventario-
           El valor total del inventario es de: $36000.00
 
-- caso 6:
-       Entrada:
+- case 6:
+       Input:
           None
-       - Salida:
+       - output:
           Lista de productos
           Nombre: miel -- Precio: $1200.0 -- Cantidad: 20
       
-- caso 7:
-        Entrada:
+- case 7:
+        Input:
           None
-        - Salida:
+        - output:
           Fin del programa. Adioss 👍👍👍       
                 
-## Explicacion
-En el codgio se emplean validaciones para asegura una buena experiencia de usario, ademas brindando algo organizado y agradable a la vista.
-La logica en el codigo se basa en funciones, se piden los datos de entrada en le index principal y se envian como parametros a las funciones situadas en otro archivo llamado functions.py
+## Explain
+Validations are used in the code to have a good user experience, in addition to giving something organized and pleasant to the eye.
+The logic in the code is based on functions, the input data is requested in the index and sent as parameters to the functions located in another file called functions.py
+
+
      
       
     
