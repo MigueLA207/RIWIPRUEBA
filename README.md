@@ -27,7 +27,7 @@ Este proyecto es una aplicación que permite llevar el inventario a una tienda d
      Salida:
         "Producto ingresado con exito"
      
-   - caso 2:
+  - caso 2:
        Entrada: 
         Ingrese por favor el nombre del producto: miel
      Salida:
