@@ -67,7 +67,9 @@ Este proyecto es una aplicación que permite llevar el inventario a una tienda d
         - Salida:
           Fin del programa. Adioss 👍👍👍       
                 
-
+## Explicacion
+En el codgio se emplean validaciones para asegura una buena experiencia de usario, ademas brindando algo organizado y agradable a la vista.
+La logica en el codigo se basa en funciones, se piden los datos de entrada en le index principal y se envian como parametros a las funciones situadas en otro archivo llamado functions.py
      
       
     
