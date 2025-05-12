@@ -24,13 +24,13 @@ Este proyecto es una aplicación que permite llevar el inventario a una tienda d
         Ingrese por favor el nombre del producto: miel 
         Ingrese por favor el precio del producto: 1200
         Ingrese por favor la cantidad de productos que hay: 30
-     Salida:
+     -Salida:
         "Producto ingresado con exito"
      
 - caso 2:
        Entrada: 
         Ingrese por favor el nombre del producto: miel
-     Salida:
+     -Salida:
         Busqueda realizada con exito
         Nombre: miel -- Precio: 1200.0 -- Cantidad: 30 
 
