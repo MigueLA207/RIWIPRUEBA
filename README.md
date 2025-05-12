@@ -19,10 +19,12 @@ Este proyecto es una aplicación que permite llevar el inventario a una tienda d
  6. Despues de recorrer cada opcion, la unica opción de salir del programa es la 7.
 
 ## Ejemplos de datos de entrada
-  caso 1: 
-    Entrada: 
+   - caso 1:
+     Entrada: 
         Ingrese por favor el nombre del producto: miel 
         Ingrese por favor el precio del producto: 1200
         Ingrese por favor la cantidad de productos que hay: 30
+     
+      
     
     
