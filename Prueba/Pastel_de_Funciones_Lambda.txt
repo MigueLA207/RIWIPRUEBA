@@ -1,0 +1,78 @@
+
+PASTEL DE FUNCIONES LAMBDA EN PYTHON
+
+BASE DEL PASTEL: ¿Qué es una función lambda?
+--------------------------------------------------
+Una función lambda es una función anónima (sin nombre) en Python.
+Se usa para tareas simples y rápidas.
+Sintaxis básica:
+    lambda argumentos: expresión
+
+Ejemplo básico:
+    suma = lambda x, y: x + y
+    print(suma(3, 4))  # Salida: 7
+
+
+PRIMERA CAPA: Lambdas simples
+--------------------------------------------------
+Ejercicio 1: Doblar un número
+    doblar = lambda x: x * 2
+    print(doblar(5))  # Salida: 10
+
+Ejercicio 2: Comprobar si un número es par
+    es_par = lambda x: x % 2 == 0
+    print(es_par(4))  # Salida: True
+
+
+SEGUNDA CAPA: Lambdas con map()
+--------------------------------------------------
+map(función, iterable) aplica una función a cada elemento de una lista.
+
+Ejercicio 3: Elevar al cuadrado los números
+    numeros = [1, 2, 3, 4]
+    cuadrados = list(map(lambda x: x**2, numeros))
+    print(cuadrados)  # Salida: [1, 4, 9, 16]
+
+
+TERCERA CAPA: Lambdas con filter()
+--------------------------------------------------
+filter(función, iterable) filtra los elementos que cumplen una condición.
+
+Ejercicio 4: Filtrar los números impares
+    numeros = [1, 2, 3, 4, 5]
+    impares = list(filter(lambda x: x % 2 != 0, numeros))
+    print(impares)  # Salida: [1, 3, 5]
+
+
+CUARTA CAPA: Lambdas con sorted()
+--------------------------------------------------
+sorted(iterable, key=función) ordena con base en un criterio.
+
+Ejercicio 5: Ordenar una lista de tuplas por el segundo valor
+    datos = [(1, 3), (2, 1), (4, 2)]
+    ordenados = sorted(datos, key=lambda x: x[1])
+    print(ordenados)  # Salida: [(2, 1), (4, 2), (1, 3)]
+
+
+CAPA DE RELLENO ESPECIAL: Lambdas dentro de funciones
+--------------------------------------------------
+Ejercicio 6: Crear una función que devuelva una lambda personalizada
+    def multiplicador(factor):
+        return lambda x: x * factor
+
+    por_diez = multiplicador(10)
+    print(por_diez(5))  # Salida: 50
+
+
+ÚLTIMA CAPA: Lambdas con estructuras complejas
+--------------------------------------------------
+Ejercicio 7: Calcular el valor total de un inventario con lambda y map()
+    inventario = [
+        {"producto": "lápiz", "precio": 500, "cantidad": 10},
+        {"producto": "cuaderno", "precio": 2000, "cantidad": 4},
+        {"producto": "borrador", "precio": 300, "cantidad": 7},
+    ]
+
+    totales = list(map(lambda item: item["precio"] * item["cantidad"], inventario))
+    print(totales)  # Salida: [5000, 8000, 2100]
+    print("Total general:", sum(totales))  # Salida: 15100
