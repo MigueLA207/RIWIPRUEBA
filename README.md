@@ -32,11 +32,41 @@ Este proyecto es una aplicación que permite llevar el inventario a una tienda d
         Ingrese por favor el nombre del producto: miel
      Salida:
         Busqueda realizada con exito
-        ---------------------------------------------------
         Nombre: miel -- Precio: 1200.0 -- Cantidad: 30 
-        ---------------------------------------------------
-     - caso 3:
+        
+    - caso 3:
+       Entrada:
+         Ingrese por favor el nombre del producto: miel
+         Digita el nuevo precio para este producto: 2000
+       Salida:
+         Precio editado con exito
        
+    - caso 4:
+       Entrada:
+          Ingrese por favor el nombre del producto: miel
+       Salida:
+          Producto eliminado con exito
+      
+    - caso 5:
+       Entrada:
+          None
+       Salida:
+          -Valor total del inventario-
+          El valor total del inventario es de: $36000.00
+        
+    - caso 6:
+       Entrada:
+          None
+       Salida:
+          Lista de productos
+          Nombre: miel -- Precio: $1200.0 -- Cantidad: 20
+      
+    - caso 7:
+        Entrada:
+          None
+        Salida:
+          Fin del programa. Adioss 👍👍👍       
+                
 
      
       
